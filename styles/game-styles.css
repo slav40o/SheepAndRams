@@ -1,0 +1,80 @@
+body, div, button, input, form, canvas {
+    margin: 0;
+    padding: 0;
+}
+
+#game-container{
+    margin: 0 auto;
+    width: 820px;
+}
+
+#game-visuals{
+    position: relative;
+    clear: both;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+#game-canvas{
+    background-color: transparent;
+    border: 1px solid black;
+    float: left;
+}
+
+#guesses{
+    width: 200px;
+    height: 520px;
+    margin-left: 600px;
+    overflow: auto;
+    text-align: center;
+}
+
+#guesses ul{
+    list-style-type: none;
+}
+
+#guesses ul li{
+    border-radius: 15px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+#guesses .guessed-number{
+    font-weight: bold;
+    font-size: 20px;
+    color: orange;
+}
+
+#guesses .sheep-rams{
+    color: yellowgreen;
+    font-size: 16px;
+}
+
+#number-input{
+    position:  absolute;
+    top: 400px;
+    left: 150px;
+    z-index: 10;
+}
+
+#number-input input{
+    border-radius: 15px;
+    border: none;
+    padding: 10px 30px;
+    font-size: 26px;
+    width: 70px;
+}
+
+#number-input button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+#game-menu button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}

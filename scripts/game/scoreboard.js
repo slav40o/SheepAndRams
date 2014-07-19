@@ -40,7 +40,7 @@ define([], function() {
                     return sortScores.call(this).splice(this._count);
                 }
 
-                return sortScores.call(this);
+                return  sortScores.call(this);
             }
         };
 
